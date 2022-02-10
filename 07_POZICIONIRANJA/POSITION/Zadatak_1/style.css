@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-image: url("img/lego_pizza.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 300px;
+}
+div {
+  color: white;
+  font-size: 50px;
+  text-shadow: 2px 2px gray;
+}
+
+/*Gornji levi ugao*/
+/* header div {
+  position: absolute;
+  top: 0;
+  left: 0;
+} */
+
+/* Gornji desni ugao */
+/* header div {
+  position: absolute;
+  top: 0;
+  right: 0;
+} */
+
+/*Donji levi ugao */
+/* header div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+
+/* Donji desni ugao */
+/* header div {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+} */
+
+/* Centriran */
+header div {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

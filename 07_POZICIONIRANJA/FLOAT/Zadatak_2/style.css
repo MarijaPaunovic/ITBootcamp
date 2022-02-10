@@ -1,0 +1,93 @@
+/****   Vertikalni meni ****/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#rest {
+  position: relative;
+  top: 150px;
+  border: 1px solid green;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+nav ul {
+  overflow: hidden;
+}
+nav ul li {
+  float: left;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  border-right: 1px solid white;
+  width: 25%;
+  height: 50px;
+  list-style-type: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 13px;
+}
+nav ul li:hover {
+  background-color: red;
+}
+nav ul li a:link {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+nav ul li a:visited {
+  display: block;
+  color: white;
+  text-decoration: none;
+}
+
+/**** Horizontalni meni ****/
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer ul {
+  list-style-type: none;
+}
+footer ul li {
+  width: 25%;
+  background-color: blueviolet;
+}
+footer ul li a {
+  display: block;
+  padding: 10px 0 10px 5px;
+  text-decoration: none;
+  color: white;
+}
+footer ul li a:hover {
+  background-color: coral;
+}
+
+/****   Horizontalni meni ****/
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.topbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+li a {
+  text-align: center;
+  background-color: black;
+  color: white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: red;
+} */
