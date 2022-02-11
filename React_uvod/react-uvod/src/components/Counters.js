@@ -28,13 +28,13 @@ class Counters extends Component {
 
     handleDelete = id => {
         console.log(`handleDelete`, id);
-        // Marija
+        // 1 var.
         this.setState({
             counters: this.state.counters.filter((counter) => counter.id !== id)
             // filter vraca sve sto ne spada u uslov, pa ako stavimo item.id === id onda ce samo jednu stvar na ekranu da ostavi
         })
         // ili
-        // Nebojsa
+        // 2 var.
         // this.setState((prevState) => {
         //     return {
         //         ...prevState,
