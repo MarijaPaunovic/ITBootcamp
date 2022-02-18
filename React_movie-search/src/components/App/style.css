@@ -1,0 +1,28 @@
+.navbar {
+  background-color: turquoise;
+  padding: 20px 30px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+}
+.navbar-content {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+.navbar-tabs {
+  margin: 0 20px;
+}
+.navbar-tab {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+.navbar-tab h2 {
+  display: inline;
+  padding: 5px 10px;
+}
+.navbar-username {
+  color: white;
+  margin-right: 20px;
+}
