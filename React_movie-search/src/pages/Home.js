@@ -10,7 +10,7 @@ import { SEARCH_MOVIES_REQUEST, SEARCH_MOVIES_SUCCESS, SEARCH_MOVIES_FAILED } fr
 
 const Home = () => {
     const [state, dispatch] = useReducer(reducer, initialState);
-    console.log(state);
+    // console.log(state);
     const { movies, errorMessage, loading } = state;
 
     const handleMovieSearch = movie => {

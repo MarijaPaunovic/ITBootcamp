@@ -1,0 +1,47 @@
+.back-btn {
+  display: block;
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 5px 10px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  color: turquoise;
+}
+.back-btn:hover {
+  color: black;
+}
+.detail-container {
+  margin-top: 40px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.poster img {
+  border-radius: 10px;
+}
+.info {
+  width: 100%;
+}
+.field {
+  margin-left: 40px;
+  text-align: left;
+  font-size: 22px;
+  /* margin-bottom: 20px; */
+}
+.label {
+  font-size: 0.8em;
+}
+.label-s {
+  font-weight: bold;
+}
+.title {
+  font-weight: bold;
+  font-size: 1.3em;
+}
