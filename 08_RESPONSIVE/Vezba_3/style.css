@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  /* border: 1px solid black; */
+}
+body {
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  width: 100%;
+  overflow: hidden;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+}
+/* HEADER i FOOTER */
+header,
+footer {
+  background-color: aqua;
+  text-align: center;
+  font-size: 26px;
+  font-weight: bold;
+  padding: 10px 0;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+}
+/* NAV */
+nav {
+  background-color: rgb(9, 160, 160);
+}
+nav ul li {
+  text-decoration: none;
+  padding: 20px;
+  font-size: 20px;
+}
+nav ul li:nth-child(1) {
+  border-bottom: 1px solid aqua;
+}
+nav ul li:nth-child(3) {
+  border-top: 1px solid aqua;
+}
+nav ul li:hover {
+  background-color: aqua;
+}
+a:link {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+/* SECTION 1 */
+.sec1 {
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(25, 181, 166, 1) 100%
+  );
+  font-size: 24px;
+}
+.sec1 p:nth-child(1) {
+  margin-bottom: 20px;
+}
+/* IMAGES */
+.img {
+  border-bottom: 2px solid white;
+}
+/* SECTION 2 */
+.sec2 {
+  padding: 20px;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(25, 181, 166, 1) 100%
+  );
+  font-size: 24px;
+}
+.sec2 section {
+  padding: 10px;
+}
+.sec2 section h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+.sec2 section p {
+  font-size: 28px;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+/* ZA MOBILNE UREDJAJE */
+@media only screen and (max-width: 600px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+/* ZA DESKTOP UREDJAJE */
+@media only screen and (min-width: 601px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}

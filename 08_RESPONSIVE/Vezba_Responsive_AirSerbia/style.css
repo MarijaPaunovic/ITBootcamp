@@ -1,0 +1,162 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 80%;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.row {
+  width: 100%;
+  overflow: hidden;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+[class*="col-"] {
+  float: left;
+}
+/* HEADER */
+header {
+  background-color: white;
+  padding: 5px 0;
+  text-align: center;
+}
+h1 {
+  color: rgb(41, 84, 179);
+  font-weight: bold;
+}
+img {
+  width: 300px;
+  cursor: pointer;
+}
+nav {
+  background-color: rgb(41, 84, 179);
+  text-align: left;
+  font-size: 18px;
+}
+nav ul {
+  overflow: hidden;
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+  padding: 10px;
+  font-size: 20px;
+}
+nav ul li:nth-child(1) {
+  padding: 0;
+  padding-left: 20px;
+  padding-right: 5px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+ul li a img:first-child {
+  width: 150px;
+  padding-top: 8px;
+}
+/* SECTIONS */
+.sec {
+  padding: 20px;
+}
+h3 {
+  padding-left: 5px;
+  margin-bottom: 5px;
+}
+aside img:first-of-type {
+  margin-bottom: 50px;
+}
+section img {
+  margin-bottom: 5px;
+}
+.kontinenti ul li {
+  list-style-type: none;
+}
+.kontinenti ul li:last-child {
+  margin-bottom: 50px;
+}
+.kontinenti ul li a {
+  color: black;
+  text-decoration: none;
+  display: block;
+  background-color: lightgray;
+  padding: 10px;
+  font-weight: 600;
+  border-bottom: 2px solid white;
+}
+input[type="email"],
+textarea {
+  padding: 2px 5px;
+  margin: 10px 0;
+  width: 100%;
+}
+input[type="submit"] {
+  padding: 10px;
+  background-color: rgb(41, 84, 179);
+  color: white;
+  cursor: pointer;
+  border: none;
+  margin: 10px 0;
+}
+
+/* ZA MOBILNE UREDJAJE */
+@media only screen and (max-width: 999px) {
+  [class*="col-"] {
+    width: 100%;
+  }
+  nav ul li {
+    display: block;
+    width: 100%;
+    border-bottom: 1px solid white;
+    padding-left: 20px;
+  }
+  img {
+    width: 300px;
+  }
+}
+/* ZA DESKTOP UREDJAJE */
+@media only screen and (min-width: 1000px) {
+  .col-1 {
+    width: 8.33%;
+  }
+  .col-2 {
+    width: 16.66%;
+  }
+  .col-3 {
+    width: 25%;
+  }
+  .col-4 {
+    width: 33.33%;
+  }
+  .col-5 {
+    width: 41.66%;
+  }
+  .col-6 {
+    width: 50%;
+  }
+  .col-7 {
+    width: 58.33%;
+  }
+  .col-8 {
+    width: 66.66%;
+  }
+  .col-9 {
+    width: 75%;
+  }
+  .col-10 {
+    width: 83.33%;
+  }
+  .col-11 {
+    width: 91.66%;
+  }
+  .col-12 {
+    width: 100%;
+  }
+}
