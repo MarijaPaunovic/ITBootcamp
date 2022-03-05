@@ -1,0 +1,34 @@
+{    
+    "sportisti": [
+        {
+            "imePrezime" : "Ivan Ivanovic",
+            "visina" : 198,
+            "timovi" : ["Lakers", "Partizan"]
+        },
+        {
+            "imePrezime" : "Marko Markovic",
+            "visina" : 210,
+            "timovi" : ["Buducnost", "Radnicki", "Zvezda"]
+        },
+        {
+            "imePrezime" : "Milan Milanovic",
+            "visina" : 188,
+            "timovi" : ["Lakers", "Buducnost", "Radnicki"]
+        },
+        {
+            "imePrezime" : "Jovan Jovanovic",
+            "visina" : 205,
+            "timovi" : ["Radnicki"]
+        },
+        {   
+            "imePrezime": "Vlade Divac",
+            "visina": 212,
+            "timovi": ["Partizan", "Lakers", "Charlote", "Sacramento"]
+        }, 
+        {
+            "imePrezime": "Predrag Stojakovic",
+            "visina": 206,
+            "timovi": ["Sacramento", "Toronto", "Dalas", "Indiana", "New Orleans"]
+        }
+   ]
+ } 
