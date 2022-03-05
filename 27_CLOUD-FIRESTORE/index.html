@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cloud Firebase</title>
+</head>
+<body>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.7/firebase-firestore.js"></script>
+    
+    <script>
+        const firebaseConfig = {
+          apiKey: "AIzaSyBQ4E9noHj6gZsfEAEDj-LOd1t0UBkWpZo",
+          authDomain: "itbootcamp-js7-vezbanje.firebaseapp.com",
+          projectId: "itbootcamp-js7-vezbanje",
+          storageBucket: "itbootcamp-js7-vezbanje.appspot.com",
+          messagingSenderId: "666632676654",
+          appId: "1:666632676654:web:533ccaf3168717871406bf",
+          measurementId: "G-PRJ8PJ2L51"
+        };
+      
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        let db = firebase.firestore();
+      </script>
+
+    <!-- <script src="script.js"></script> -->
+    <!-- <script src="movies.js"></script> -->
+    <script src="script-2.js"></script>
+</body>
+</html>
