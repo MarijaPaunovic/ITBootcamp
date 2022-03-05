@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To do lista - Verzija 1</title>
+</head>
+<body>
+    <div id="container">
+        <h1>Moj podsetnik</h1>
+        <ul>
+            <li>Plati račune</li>
+            <li>Pripremi predavanja</li>
+            <li>Odgovori na mejl</li>
+        </ul>
+        <div>
+            <input id="unesiObavezu" type="text" name="obaveza" placeholder="Unesite obavezu" >
+        </div>
+        <!-- <div>
+            <input id="dodaj" type="submit" value="Dodaj">
+        </div> -->
+        <div>
+            <input type="radio" name="obaveza" id="pocetak" value="begin">
+            <label for="">Dodaj na početak liste</label>
+            
+        </div>
+        <div>
+            <input type="radio" name="obaveza" id="kraj" checked>
+            <label for="">Dodaj na kraj liste</label> 
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
